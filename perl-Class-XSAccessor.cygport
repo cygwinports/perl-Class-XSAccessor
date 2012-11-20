@@ -1,0 +1,12 @@
+CPAN_AUTHOR="smueller"
+inherit perl
+
+NAME="perl-Class-XSAccessor"
+VERSION=1.16
+RELEASE=1
+CATEGORY="Perl"
+SUMMARY="Perl hash object accessor module"
+DESCRIPTION="Class::XSAccessor implements fast read, write and read/write
+accessors in XS. Additionally, it can provide predicates such as 'has_foo()'
+for testing whether the attribute 'foo' is defined in the object. It only
+works with objects that are implemented as ordinary hashes."
